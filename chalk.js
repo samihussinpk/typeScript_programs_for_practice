@@ -1,0 +1,10 @@
+import chalk from "chalk";
+console.log(chalk.blue("Hello world"));
+let myName = "Sami Hussain";
+console.log(chalk.bold(myName));
+let myCaste = "Shaikh";
+console.log(chalk.strikethrough(myCaste));
+let myAge = 22;
+console.log(chalk.underline(myAge));
+let myCountry = "Pakistan";
+console.log(chalk.bgWhite(myCountry));
